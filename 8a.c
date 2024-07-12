@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 	}
 	else if(S_ISBLK(fileStat.st_mode))
 	{
-		printf("Directory special file\n");
+		printf("Block special file\n");
 	}
 	else if(S_ISFIFO(fileStat.st_mode))
 	{
